@@ -1,10 +1,13 @@
 #include "main.h"
 
- /**
- * int _islower(int c) - Entry point
+/**
+ * _islower - writes the int _islower to stdout
  *
- *  main - check the code.
+ * @ch: char
+ *
+ * Return:  followed by a new line
  */
+
 int _islower(int ch)
 {
 	if (ch >= 97 && ch <= 122)
