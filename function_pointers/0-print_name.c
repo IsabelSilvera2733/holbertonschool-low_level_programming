@@ -1,8 +1,13 @@
+#include "function_pointers.h"
+
+/**
+ * print_name - Prints a name
+ * @name: Name to be printed
+ * @f: Pointer to printing function
+ */
+
 void print_name(char *name, (*f)(char *));
 {
-/*
- * as long as f is not '\0' f runs on f(name)
- */
 	if (f)
 		f(name);
 }
